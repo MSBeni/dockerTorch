@@ -1,0 +1,22 @@
+name: camera-seg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - numpy
+  - pillow
+  - yaml
+  - pyyaml
+  - matplotlib
+  - jupyter
+  - notebook
+  - tensorboardx
+  - tensorboard
+  - protobuf
+  - tqdm
+  - pip:
+    - future
+    - torch
+    - torchvision
